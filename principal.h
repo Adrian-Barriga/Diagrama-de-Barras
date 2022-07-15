@@ -32,7 +32,7 @@ protected:
 
 private:
     Ui::Principal *ui;
-    // Objeto que permite realizar graficos >> lienzo donde vamos a dibujar
+    // Creamos un objeto el cual nos permita graficar sobre el es decir algo similar a un lienzo
     QPixmap lienzo;
 
     void dibujar();

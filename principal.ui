@@ -13,6 +13,9 @@
   <property name="windowTitle">
    <string>Principal</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(49, 147, 147);</string>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="outCuadro">
     <property name="geometry">
@@ -51,6 +54,9 @@
     <layout class="QVBoxLayout" name="verticalLayout">
      <item>
       <widget class="QGroupBox" name="groupBox">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(158, 79, 111);</string>
+       </property>
        <property name="title">
         <string>Notas</string>
        </property>
@@ -76,6 +82,11 @@
           <height>26</height>
          </rect>
         </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);</string>
+        </property>
        </widget>
        <widget class="QLabel" name="label_2">
         <property name="geometry">
@@ -98,6 +109,11 @@
           <width>48</width>
           <height>26</height>
          </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);</string>
         </property>
        </widget>
        <widget class="QLabel" name="label_3">
@@ -122,6 +138,11 @@
           <height>26</height>
          </rect>
         </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);</string>
+        </property>
        </widget>
       </widget>
      </item>
@@ -134,7 +155,7 @@
      <x>0</x>
      <y>0</y>
      <width>682</width>
-     <height>22</height>
+     <height>21</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuArchivo">
